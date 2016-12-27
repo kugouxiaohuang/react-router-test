@@ -6,7 +6,6 @@ export default React.createClass({
     render:function(){
          return (
             <div>
-                <Link to='/'>返回</Link>
                 <div>this is repos page</div>
                 <ul>
                       <li><NavLink to="/repos/reactjs/react-router">React Router</NavLink></li>
